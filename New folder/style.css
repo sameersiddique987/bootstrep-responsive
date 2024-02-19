@@ -48,3 +48,36 @@ li button{
     background: #d62033;
     color: #ffff;
 }
+
+@media(min-width:500px){
+    body {
+        background-color: red;
+        color: white;
+    }
+}
+
+
+
+@media(min-width:700px){
+    body {
+        background-color: peru;
+        color: white;
+    }
+}
+
+#icon{
+    font-size: 40px;
+    color: black;
+    display:none;
+}
+
+@media(max-width:400px){
+    
+        ul{
+            display: none;
+        }
+#icon{
+display: block;
+}
+    }
+
