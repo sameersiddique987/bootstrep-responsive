@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav ul {
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+nav{
+    background-color: #ffccdcab;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav i{
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+nav img{
+    height: 50px;
+    margin-left: 550px;
+    margin-bottom: 5px;
+    background: none;
+
+}
+
+li button{
+    display: flex;
+    border: none;
+    flex-direction: row;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.but1{
+    padding: 5px 10px;
+    background: #d62033;
+    color: #ffff;
+}
